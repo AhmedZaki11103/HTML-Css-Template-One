@@ -76,6 +76,21 @@ p {
 }
 /* End Global Rulse */
 
+/* Start Scroll */
+.scroll {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+}
+.scroll i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+}
+/* End Scroll */
+
 /* Start Header */
 header {
   padding: 15px;
