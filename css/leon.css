@@ -79,15 +79,18 @@ p {
 /* Start Scroll */
 .scroll {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 30px;
+  right: 30px;
   text-decoration: none;
+  background-color: var(--main-color);
+  padding: 8px;
+  border-radius: 3px;
 }
 .scroll i {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--main-color);
+  color: white;
   font-size: 20px;
 }
 /* End Scroll */
